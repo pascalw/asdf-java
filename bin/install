@@ -121,6 +121,7 @@ get_java() {
 
 		openjdk-11.0.1) url=${base}11/13/GPL/openjdk-11.0.1_$variant ;;
 		openjdk-11)     url=${base/\/GA\//\/ga\/}11/openjdk-11_$variant ;;
+		openjdk-12)     url=${base}12/GPL/openjdk-12_$variant ;;
 		openjdk-10.0.2) url=$base'10'/$version/19aef61b38124481863b1413dce1855f/13/openjdk-$version'_'$variant ;;
 
 		*) ASDF_JAVA_ERROR="$version is not a supported version" ;;
